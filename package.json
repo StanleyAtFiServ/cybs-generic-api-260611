@@ -1,0 +1,27 @@
+{
+  "name": "cybersource-rest-samples-node",
+  "version": "0.0.1",
+  "description": "Sample code for CyberSource SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "paymentsAPI"
+  ],
+  "author": "developer@cybersource.com",
+  "license": "MIT",
+  "dependencies": {
+    "cybersource-rest-client": "0.0.79",
+    "dotenv": "^17.4.2",
+    "eslint": "^5.9.0",
+    "inquirer": "^14.0.2",
+    "jwk-to-pem": "^2.0.0",
+    "minimist": "^1.2.8",
+    "node-forge": "^1.2.1"
+  },
+  "overrides": {
+    "glob": "10.4.2"
+  }
+}
