@@ -38,7 +38,7 @@ const { chosenFolder } = await inquirer.prompt([
   // Step 4: copy and rename
   fs.copyFileSync(sourceFile, destFile);
 
-  console.log(`Copied ${envFile} from ${chosenFolder} to project root as .env`);
+  console.log(`Copied ${envFile} from ${chosenFolder} to Developed folder as .env`);
 }
 
 main().catch(err => console.error(err));
